@@ -64,6 +64,25 @@ password-strength-checker/
 - Database integration.
 - Enhanced security monitoring.
 - Mobile application support.
+## 📸 Project Screenshots
+
+### 1. Signup Page
+Displays the registration form with password and phone number fields.
+
+### 2. Login Page
+Allows registered users to securely access their accounts.
+
+### 3. Password Strength Checker
+Analyzes password complexity and displays the strength level.
+
+### 4. OTP Verification
+Provides OTP-based user verification.
+
+### 5. Dashboard
+Displays password security information and available features.
+
+### 6. Password Strength Graph
+Visual representation of password security parameters.
 
 ## 👨‍💻 Developer
 
