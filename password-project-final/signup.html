@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Signup</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Signup</h2>
+
+<input type="text" id="signupUser" placeholder="Username">
+
+<div class="password-box">
+<input type="password" id="signupPass" placeholder="Password">
+<span onclick="togglePassword('signupPass')">👁</span>
+</div>
+
+<p class="rules">Min 8 chars, Uppercase, Number, Special</p>
+
+<input type="text" id="signupPhone" placeholder="Phone Number">
+
+<button onclick="sendOTP()">Send OTP</button>
+
+<input type="text" id="otpInput" placeholder="Enter OTP">
+
+<button onclick="verifyOTP()">Signup</button>
+
+<p id="msg"></p>
+
+<p><a href="login.html">Go to Login</a></p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
